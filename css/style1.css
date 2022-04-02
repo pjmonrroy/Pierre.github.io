@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-page1 {
+    width: 100%;
+    height: 100vh;
+    background-color:#D6F4FF;
+    
+}
+.container-page1 picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #cd3a8e, #bb4aa2, #a559b1, #8d64bb, #736ebf, #5e7ecc, #468cd5, #2a9ada, #00b3e8, #00ccf0, #26e4f2, #5ffbf1);
+}
+.container-page1 picture h1 {
+    display: flex;
+    justify-content: center;
+    color:black ;
+}
+.container-page1 picture img{
+    width: 40%;
+    height: 50vh;
+    margin:  0 auto;
+    overflow: hidden;
+    border-radius:  50% 50% 0 0;
+    border: 21px double white;
+}
+.container-page1 picture p {
+    width: 70%;
+    height: 200px;
+    color: #CB5CE0 ;
+    background-color: rgb(32, 28, 28);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-block-start: 20px;
+}
+.container-page1 picture div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-block-start: 10px;
+
+}
+.container-page1 picture div form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    background-color: #DDF8D7;
+    border-radius: 50px;
+}
+.container-page1 picture div form label{
+    display: flex; 
+    justify-content: center
+}
+.container-page1 picture div form label span {
+    color: #075e0e;
+    font-size: 1.5rem;
+}
+.container-page1 picture div form label input {
+    border-radius: 5px;
+    border: 1px solid #1A9625;
+    display: flex;
+    margin-inline-start: 10px;
+    justify-content: center;
+    background-color: #845EC2;
+    color: white;
+}
