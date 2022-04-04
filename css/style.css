@@ -9,7 +9,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #ae12c9, #873acb, #614ac5, #3c52b9, #1855a9);
+    background-color: #a9a9dc;
+    opacity: 0.5;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #a9a9dc 10px ), repeating-linear-gradient( #e523e055, #e523e0 );
     min-width: 320px;
     flex-wrap: wrap;
     flex-direction: column;
