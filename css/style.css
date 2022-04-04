@@ -9,9 +9,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a9a9dc;
-    opacity: 0.5;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #a9a9dc 10px ), repeating-linear-gradient( #e523e055, #e523e0 );
+    background-color: #d75ad0;
+    opacity: 0.7;
+    background-size: 18px 18px;
+    background-image:  repeating-linear-gradient(0deg, #121bd0, #121bd0 0.9px, #d75ad0 0.9px, #d75ad0);
     min-width: 320px;
     flex-wrap: wrap;
     flex-direction: column;
@@ -23,7 +24,7 @@ header h1 {
     font-size: 1.9rem;
     justify-content: center;
     margin: 0 auto;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header h1::first-letter{
@@ -32,7 +33,7 @@ header h1::first-letter{
 header h2 {
     display: flex;
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 3.4rem;
     justify-content: center;
     margin-block-start: 20px;
     margin: 0 auto;
@@ -42,7 +43,10 @@ header h2 {
 main {
     width: 100%;
     height: 100vh;
-    background-color: hotpink;
+    background-color: #f67d24;
+    opacity: 0.7;
+    background: radial-gradient(circle, transparent 20%, #f67d24 20%, #f67d24 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #f67d24 20%, #f67d24 80%, transparent 80%, transparent) 17.5px 17.5px, linear-gradient(#37395c 1.4000000000000001px, transparent 1.4000000000000001px) 0 -0.7000000000000001px, linear-gradient(90deg, #37395c 1.4000000000000001px, #f67d24 1.4000000000000001px) -0.7000000000000001px 0;
+    background-size: 35px 35px, 35px 35px, 17.5px 17.5px, 17.5px 17.5px;
     min-width: 320px;
     flex-wrap: wrap;
     display: flex;
